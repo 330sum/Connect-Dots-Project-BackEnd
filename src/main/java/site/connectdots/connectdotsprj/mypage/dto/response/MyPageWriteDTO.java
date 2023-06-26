@@ -21,7 +21,7 @@ public class MyPageWriteDTO {
     private String memberNickname;
     private String memberProfile;
     private String memberComment;
-화
+
     @Builder.Default
     private List<FreeBoard> freeBoardList = new ArrayList<>();
 
