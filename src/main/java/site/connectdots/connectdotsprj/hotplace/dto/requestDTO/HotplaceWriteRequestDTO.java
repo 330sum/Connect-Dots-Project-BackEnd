@@ -28,6 +28,7 @@ public class HotplaceWriteRequestDTO {
     private String kakaoLocation;
 
     // 수정필요
+    @Builder.Default
     private Long memberIdx= 1L;
 
 
